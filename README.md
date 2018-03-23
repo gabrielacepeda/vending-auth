@@ -1,3 +1,12 @@
+# Vending Machine
+
+
+![vending machine](https://github.com/gabrielacepeda/vending-auth/blob/master/vendingpreview.png)
+
+
+
+
+
 ## Installation
 
 1. Clone repo
@@ -8,7 +17,5 @@
 1. run `node server.js`
 2. Navigate to `localhost:8080`
 
-## Credit
 
-Modified from Scotch.io's auth tutorial
 # vending-auth
