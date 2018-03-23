@@ -1,0 +1,69 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  /*background-image: url("img/machine.jpeg");*/
+}
+img{
+  width: 40%;
+  margin-top: 20px;
+  float: left;
+  margin-left: 29%;
+  position: static;
+}
+
+.nav ul{
+  list-style-type: none;
+  text-align: center;
+  /*margin-left: 60%;*/
+}
+.nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 27px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+a:hover{
+  text-decoration: underline;
+}
+h2{
+  text-align: center;
+  color: red;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  margin-right: 20px;
+}
+h1{
+  text-align: center;
+  font-family: 'Faster One', cursive;
+  color: blue;
+  font-size: 55px;
+  /*margin-bottom: 30px;*/
+}
+
+ol li{
+  display: inline-block;
+}
+ol{
+  text-align: center;
+  list-style-type: none;
+  margin-right: 35px;
+}
+ol button{
+  float: left;
+  height: 105px;
+  width: 105px;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: red;
+  color: white;
+  border-radius: 300px;
+}
+ol button:hover{
+  color: blue;
+  background-color: white;
+  border: 1px solid blue;
+}

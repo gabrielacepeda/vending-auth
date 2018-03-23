@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Vending</title>
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="nav">
+        <ul>
+          <li><a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a></li>
+          <li><a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a></li>
+        </ul>
+      </div>
+      <div class="jumbotron text-center">
+        <h1>Vending Machine</h1>
+        <img src="img/machine.jpeg" alt="">
+      </div>
+
+      <h2>Click on an item to Select</h2>
+      <form action="/items" method="POST">
+        <ol>
+          <li>
+            <button type="button" id="doritos" name="button">1. Doritos - $1.50</button></li>
+          <li><button type="button" id="lays" name="button">2. Lays - $1.50</button></li>
+          <li><button type="button" id="skittles" name="button">3. Skittles - $1.75</button></li>
+          <li><button type="button" id="cookies" name="button">4. Cookies - $2.00</button></li>
+          <li><button type="button" id="orbit" name="button">5. Orbit Gum - $2.00</button></li>
+          <li><button type="button" id="coke" name="button">6. Coke - $1.75</button></li>
+        </ol>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+
+</html>
