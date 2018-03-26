@@ -1,5 +1,5 @@
 # Vending Machine
-This is a full stack app with OAuth that allows users to choose an item from the vending machine without having to log in, while the administrator views the stock numbr of each item and the revenue of items sold.
+This is a full stack app with OAuth that allows users to choose an item from the vending machine without having to log in, while the administrator views the stock number of each item and the revenue of items sold while logged in.
 
 ![vending machine](https://github.com/gabrielacepeda/vending-auth/blob/master/vendingpreview.png)
 
